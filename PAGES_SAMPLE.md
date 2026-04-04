@@ -5,17 +5,17 @@
 ## ページ構成
 
 ### 静的ルート
-- `/` - ホームページ (`pages/index.vue`)
-- `/about` - アバウトページ (`pages/about.vue`)
-- `/contact` - お問い合わせページ (`pages/contact.vue`)
+- `/` - ホームページ (`app/pages/index.vue`)
+- `/about` - アバウトページ (`app/pages/about.vue`)
+- `/contact` - お問い合わせページ (`app/pages/contact.vue`)
 
 ### ネストされたルート
-- `/blog` - ブログ一覧ページ (`pages/blog/index.vue`)
-- `/blog/[id]` - 個別記事ページ（動的ルート）(`pages/blog/[id].vue`)
+- `/blog` - ブログ一覧ページ (`app/pages/blog/index.vue`)
+- `/blog/[id]` - 個別記事ページ（動的ルート）(`app/pages/blog/[id].vue`)
 
 ## 動的ルートの例
 
-`pages/blog/[id].vue` は動的ルートの例です。以下のURLでアクセスできます：
+`app/pages/blog/[id].vue` は動的ルートの例です。以下のURLでアクセスできます：
 - `/blog/1` - 「Nuxt 3を始めよう」
 - `/blog/2` - 「ファイルベースルーティング入門」
 - `/blog/3` - 「動的ルートの活用方法」
@@ -23,7 +23,7 @@
 ## 機能
 
 ### 1. ファイルベースルーティング
-`pages/` ディレクトリにVueファイルを配置するだけで、自動的にルーティングが設定されます。
+`app/pages/` ディレクトリにVueファイルを配置するだけで、自動的にルーティングが設定されます。
 
 ### 2. NuxtLink コンポーネント
 各ページには共通のナビゲーションがあり、`<NuxtLink>` を使ってページ間を移動できます。
@@ -45,11 +45,11 @@ pnpm dev
 
 ## 学習ポイント
 
-1. **`app.vue`の役割**: `<NuxtPage />` コンポーネントを使って、ルートに応じたページを表示
-2. **静的ルート**: `pages/about.vue` → `/about` のように、ファイル名がURLパスになる
-3. **インデックスルート**: `pages/index.vue` → `/` がルートパス
-4. **ネストされたルート**: `pages/blog/index.vue` → `/blog`
-5. **動的ルート**: `pages/blog/[id].vue` → `/blog/:id` でパラメータを受け取る
+1. **`app/app.vue`の役割**: `<NuxtPage />` コンポーネントを使って、ルートに応じたページを表示
+2. **静的ルート**: `app/pages/about.vue` → `/about` のように、ファイル名がURLパスになる
+3. **インデックスルート**: `app/pages/index.vue` → `/` がルートパス
+4. **ネストされたルート**: `app/pages/blog/index.vue` → `/blog`
+5. **動的ルート**: `app/pages/blog/[id].vue` → `/blog/:id` でパラメータを受け取る
 
 ## 参考リンク
 

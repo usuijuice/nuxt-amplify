@@ -24,11 +24,11 @@
 
       <h3>ページ構成</h3>
       <ul>
-        <li><code>/pages/index.vue</code> - ホームページ</li>
-        <li><code>/pages/about.vue</code> - このページ</li>
-        <li><code>/pages/blog/index.vue</code> - ブログ一覧</li>
-        <li><code>/pages/blog/[id].vue</code> - 動的な記事ページ</li>
-        <li><code>/pages/contact.vue</code> - お問い合わせ</li>
+        <li><code>/app/pages/index.vue</code> - ホームページ</li>
+        <li><code>/app/pages/about.vue</code> - このページ</li>
+        <li><code>/app/pages/blog/index.vue</code> - ブログ一覧</li>
+        <li><code>/app/pages/blog/[id].vue</code> - 動的な記事ページ</li>
+        <li><code>/app/pages/contact.vue</code> - お問い合わせ</li>
       </ul>
     </div>
   </div>
