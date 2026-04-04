@@ -88,7 +88,7 @@ const handleSubmit = () => {
 }
 
 h1 {
-  color: #F5C300;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -101,16 +101,16 @@ nav ul {
 }
 
 nav a {
-  color: #F5C300;
+  color: #2563EB;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #F5C300;
+  border: 1px solid #2563EB;
   border-radius: 4px;
   transition: all 0.3s;
 }
 
 nav a:hover {
-  background-color: #F5C300;
+  background-color: #2563EB;
   color: white;
 }
 
@@ -149,11 +149,11 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #F5C300;
+  border-color: #2563EB;
 }
 
 .submit-btn {
-  background-color: #F5C300;
+  background-color: #2563EB;
   color: white;
   border: none;
   padding: 0.75rem 2rem;
@@ -164,7 +164,7 @@ textarea:focus {
 }
 
 .submit-btn:hover {
-  background-color: #E0B000;
+  background-color: #1D4ED8;
 }
 
 .success-message {

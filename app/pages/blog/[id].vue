@@ -62,7 +62,7 @@ const post = computed(() => posts[id.value as keyof typeof posts])
 }
 
 h1 {
-  color: #F5C300;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -75,16 +75,16 @@ nav ul {
 }
 
 nav a {
-  color: #F5C300;
+  color: #2563EB;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #F5C300;
+  border: 1px solid #2563EB;
   border-radius: 4px;
   transition: all 0.3s;
 }
 
 nav a:hover {
-  background-color: #F5C300;
+  background-color: #2563EB;
   color: white;
 }
 
@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 .back-link a {
-  color: #F5C300;
+  color: #2563EB;
   text-decoration: none;
 }
 
