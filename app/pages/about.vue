@@ -43,7 +43,7 @@
 }
 
 h1 {
-  color: #00DC82;
+  color: #F5C300;
   margin-bottom: 1rem;
 }
 
@@ -56,16 +56,16 @@ nav ul {
 }
 
 nav a {
-  color: #00DC82;
+  color: #F5C300;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #00DC82;
+  border: 1px solid #F5C300;
   border-radius: 4px;
   transition: all 0.3s;
 }
 
 nav a:hover {
-  background-color: #00DC82;
+  background-color: #F5C300;
   color: white;
 }
 
